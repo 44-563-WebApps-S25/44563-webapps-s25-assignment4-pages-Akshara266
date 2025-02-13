@@ -88,33 +88,23 @@
 
 /* Navbar at the bottom */
 .navbar {
-  background-color: #2E3A87; /* Blue background */
-  position: fixed;
-  bottom: 0;
-  width: 100%;
   display: flex;
   justify-content: center;
-  padding: 10px 0;
-  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+  background-color: #333;
+  padding: 10px;
 }
 
 .navbar a {
   color: white;
-  padding: 12px 20px;
   text-decoration: none;
-  text-align: center;
+  padding: 10px 20px;
+  margin: 5px;
   font-size: 18px;
-  margin: 0 15px;
   border-radius: 5px;
+  transition: background 0.3s ease;
 }
 
 .navbar a:hover {
-  background-color: #ff6347; /* Orange-red color on hover */
-  transition: background-color 0.3s ease;
+  background-color: #555;
 }
-
-.navbar a i {
-  margin-right: 8px; /* Space between icon and text */
-}
-
   
